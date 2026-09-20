@@ -5,8 +5,8 @@ export const site = {
   locationEn: "Bhagwa-Pratapgarh (U.P.)",
   code: "1304",
   email: "abhishektiwari1018@gmail.com",
-  phone: "+91 9196109206",
-  addressHi: "भगवा-प्रतापगढ़, उत्तर प्रदेश",
+  phone: "+91 9196109206, +91 9935827476",
+  addressHi: "भगवा-प्रतापगढ़, उत्तर प्रदेश - 230001",
   addressEn: "Bhagwa-Pratapgarh, Uttar Pradesh",
   mapQuery: "Kripa Shankar Tiwari Higher Secondary School, Bhagwa, Pratapgarh, Uttar Pradesh"
 };
