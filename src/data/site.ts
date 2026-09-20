@@ -14,7 +14,7 @@ export const site = {
 export const heroSlides = [
   {
     id: 1,
-    image: "/images/hero/hero-1.svg",
+    image: "/images/hero/hero-1.png",
     kickerHi: "गुणवत्तापूर्ण शिक्षा",
     kickerEn: "Quality Education",
     titleHi: "उज्ज्वल भविष्य की नींव",
@@ -24,7 +24,7 @@ export const heroSlides = [
   },
   {
     id: 2,
-    image: "/images/hero/hero-2.svg",
+    image: "/images/hero/hero-2.png",
     kickerHi: "हमारा विद्यालय",
     kickerEn: "Our School",
     titleHi: "सीखने के लिए बेहतर वातावरण",
@@ -34,7 +34,7 @@ export const heroSlides = [
   },
   {
     id: 3,
-    image: "/images/hero/hero-3.svg",
+    image: "/images/hero/hero-3.png",
     kickerHi: "शिक्षा और संस्कार",
     kickerEn: "Education & Values",
     titleHi: "ज्ञान से आत्मविश्वास तक",
@@ -53,16 +53,16 @@ export const galleryItems = Array.from({ length: 12 }, (_, i) => ({
   titleHi: [
     "विद्यालय प्रवेश द्वार",
     "विद्यालय भवन",
+    "विशेष कार्यक्रम",
+    "सांस्कृतिक कार्यक्रम",
     "कक्षा कक्ष",
+    "खेलकूद गतिविधि",
     "विज्ञान प्रयोगशाला",
     "विद्यार्थी गतिविधि",
     "विद्यालय परिसर",
     "शैक्षणिक गतिविधि",
-    "सांस्कृतिक कार्यक्रम",
-    "खेलकूद गतिविधि",
     "विद्यालय समारोह",
     "प्रार्थना सभा",
-    "विशेष कार्यक्रम",
   ][i],
 
   titleEn: [

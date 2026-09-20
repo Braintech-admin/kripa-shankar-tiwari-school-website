@@ -31,7 +31,7 @@ export function Hero() {
         <h2>{language === "hi" ? slide.titleHi : slide.titleEn}</h2>
         <p>{language === "hi" ? slide.textHi : slide.textEn}</p>
         <div className="hero-actions">
-          <Link href="/#admission" className="btn btn-red"><ClipboardList size={18} /> {language === "hi" ? "प्रवेश सूचना" : "Admission"}</Link>
+          <Link href="/pravesh-soochna" className="btn btn-red"><ClipboardList size={18} /> {language === "hi" ? "प्रवेश सूचना" : "Admission"}</Link>
           <Link href="/#about" className="btn btn-white"><Users size={18} /> {language === "hi" ? "हमारे बारे में" : "About Us"}</Link>
         </div>
       </div>

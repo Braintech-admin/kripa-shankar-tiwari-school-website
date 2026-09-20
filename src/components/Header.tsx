@@ -16,7 +16,7 @@ export function Header() {
     ["/", "मुख्य पृष्ठ", "Home", School],
     ["/#about", "हमारे बारे में", "About Us", Users],
     ["/#academics", "शैक्षणिक व्यवस्था", "Academics", BookOpen],
-    ["/#admission", "प्रवेश सूचना", "Admission", ClipboardList],
+    ["/pravesh-soochna", "प्रवेश सूचना", "Admission", ClipboardList],
     ["/#student-life", "छात्र जीवन", "Student Life", GraduationCap],
     ["/gallery", "गैलरी", "Gallery", Images],
     ["/contact", "संपर्क करें", "Contact", Phone]
@@ -54,7 +54,7 @@ export function Header() {
               <div className="school-code">{t("विद्यालय कोड", "School Code")} - {site.code}</div>
             </div>
           </Link>
-          <Link href="/#admission" className="admission-cta">
+          <Link href="/pravesh-soochna" className="admission-cta">
             <strong><GraduationCap size={21} /> {t("प्रवेश जानकारी", "Admission Information")}</strong>
             <small>{t("उज्ज्वल भविष्य की ओर...", "Towards a bright future...")}</small>
           </Link>
