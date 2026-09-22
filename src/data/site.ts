@@ -4,6 +4,7 @@ export const site = {
   locationHi: "भगवा-प्रतापगढ़ (उ.प्र.)",
   locationEn: "Bhagwa-Pratapgarh (U.P.)",
   code: "1304",
+  establishmentYear: "2009",
   email: "abhishektiwari1018@gmail.com",
   phone: "+91 9196109206, +91 9935827476",
   addressHi: "भगवा-प्रतापगढ़, उत्तर प्रदेश - 230001",

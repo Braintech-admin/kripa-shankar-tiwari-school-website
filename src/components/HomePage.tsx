@@ -40,6 +40,7 @@ export function HomePage() {
           <div className="about-photo"><Image src="/images/school-building.png" alt="School building" width={800} height={450} /></div>
           <div className="info-card">
             <div><School /><b>{t("विद्यालय कोड", "School Code")}</b><span>{site.code}</span></div>
+            <div><Building2 /><b>{t("स्थापना वर्ष", "Established")}</b><span>{site.establishmentYear}</span></div>
             <div><MapPin /><b>{t("स्थान", "Location")}</b><span>{t(site.locationHi, site.locationEn)}</span></div>
             <div><Users /><b>{t("प्रबंध प्रकार", "Management")}</b><span>{t("उच्चतर माध्यमिक विद्यालय", "Higher Secondary School")}</span></div>
             <div><CalendarDays /><b>{t("शिक्षा का माध्यम", "Medium")}</b><span>{t("हिन्दी", "Hindi")}</span></div>
