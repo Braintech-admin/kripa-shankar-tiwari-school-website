@@ -25,12 +25,27 @@ export function Header() {
   return (
     <>
       <div className="topbar">
-        <div className="container topbar-inner">
-          <div className="top-contact">
-            <span><Mail size={14} /> {site.email}</span>
-            <span><Phone size={14} /> {site.phone}</span>
-            <span><MapPin size={14} /> {t(site.locationHi, site.locationEn)}</span>
-          </div>
+              <div className="container topbar-inner">
+                <div className="top-contact">
+        <span className="top-email">
+          <Mail size={14} />
+          {site.email}
+        </span>
+
+        <div className="top-phones">
+          {site.phone.split(",").map((phone) => (
+            <span key={phone.trim()}>
+              <Phone size={14} />
+              {phone.trim()}
+            </span>
+          ))}
+        </div>
+
+        <span className="top-location">
+          <MapPin size={14} />
+          {t(site.locationHi, site.locationEn)}
+        </span>
+      </div>
           <div className="top-links">
             <Link href="/#students">{t("छात्र/अभिभावक", "Students / Parents")}</Link>
             <Link href="/#staff">{t("शिक्षक/कर्मचारी", "Teachers / Staff")}</Link>

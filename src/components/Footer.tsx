@@ -42,9 +42,14 @@ export function Footer() {
           <span>
             <MapPin /> {site.addressHi}
           </span>
-          <a href={`tel:${site.phone}`}>
-            <Phone /> {site.phone}
-          </a>
+          <div className="footer-phones">
+  {site.phone.split(",").map((phone) => (
+    <span key={phone.trim()}>
+      <Phone size={14} />
+      {phone.trim()}
+    </span>
+  ))}
+</div>
           <a href={`mailto:${site.email}`}>
             <Mail /> {site.email}
           </a>
