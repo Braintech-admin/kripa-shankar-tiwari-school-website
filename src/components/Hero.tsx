@@ -32,7 +32,7 @@ export function Hero() {
         <p>{language === "hi" ? slide.textHi : slide.textEn}</p>
         <div className="hero-actions">
           <Link href="/pravesh-soochna" className="btn btn-red"><ClipboardList size={18} /> {language === "hi" ? "प्रवेश सूचना" : "Admission"}</Link>
-          <Link href="/#about" className="btn btn-white"><Users size={18} /> {language === "hi" ? "हमारे बारे में" : "About Us"}</Link>
+          <Link href="/about" className="btn btn-white"><Users size={18} /> {language === "hi" ? "हमारे बारे में" : "About Us"}</Link>
         </div>
       </div>
       <button className="hero-arrow prev" onClick={() => setCurrent((current - 1 + heroSlides.length) % heroSlides.length)} aria-label="Previous"><ChevronLeft /></button>

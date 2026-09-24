@@ -35,7 +35,7 @@ export function HomePage() {
           <div className="about-copy">
             <SectionTitle icon={School} title={t("हमारे विद्यालय के बारे में", "About Our School")} />
             <p>{t("कृपा शंकर तिवारी उच्चतर माध्यमिक विद्यालय, भगवा-प्रतापगढ़ क्षेत्र के विद्यार्थियों को गुणवत्तापूर्ण, अनुशासित एवं संस्कारयुक्त शिक्षा प्रदान करने के उद्देश्य से निरंतर कार्यरत है। हमारा लक्ष्य केवल शैक्षणिक उत्कृष्टता ही नहीं, बल्कि विद्यार्थियों के सर्वांगीण विकास, नैतिक मूल्यों और उज्ज्वल भविष्य का निर्माण करना है।", "Kripa Shankar Tiwari Higher Secondary School is committed to providing quality, disciplined and values-based education to students in the Bhagwa-Pratapgarh region. Our goal is not only academic excellence but also all-round development, strong values and a bright future for every student.")}</p>
-            <Link href="/#about" className="read-more">{t("और पढ़ें", "Read More")} <ArrowRight size={17} /></Link>
+            <Link href="/about" className="read-more">{t("और पढ़ें", "Read More")} <ArrowRight size={17} /></Link>
           </div>
           <div className="about-photo"><Image src="/images/school-building.png" alt="School building" width={800} height={450} /></div>
           <div className="info-card">

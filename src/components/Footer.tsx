@@ -24,7 +24,7 @@ export function Footer() {
         <div>
           <h3>त्वरित लिंक</h3>
           <Link href="/">मुख्य पृष्ठ</Link>
-          <Link href="/#about">हमारे बारे में</Link>
+          <Link href="/about">हमारे बारे में</Link>
           <Link href="/#academics">शैक्षणिक व्यवस्था</Link>
           <Link href="/pravesh-soochna">प्रवेश सूचना</Link>
           <Link href="/gallery">गैलरी</Link>

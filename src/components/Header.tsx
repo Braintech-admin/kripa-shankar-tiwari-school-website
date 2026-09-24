@@ -14,7 +14,7 @@ export function Header() {
 
   const nav = [
     ["/", "मुख्य पृष्ठ", "Home", School],
-    ["/#about", "हमारे बारे में", "About Us", Users],
+    ["/about", "हमारे बारे में", "About Us", Users],
     ["/#academics", "शैक्षणिक व्यवस्था", "Academics", BookOpen],
     ["/pravesh-soochna", "प्रवेश सूचना", "Admission", ClipboardList],
     ["/#student-life", "छात्र जीवन", "Student Life", GraduationCap],
